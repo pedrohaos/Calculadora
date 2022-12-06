@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #EFEFEF;
+    font: 900 1.8rem 'Source Sans Pro';
+}
+
+.calculadora{
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
+                -2px -2px 4px rgba(255, 255, 255, .4),
+                2px 2px 2px rgba(255, 255, 255, .05),
+                2px 2px 4px rgba(0, 0, 0, .1);
+}
+
+.calculadora .entrada{
+    color: #525357;
+    height: 60px;
+    padding: 10px 0 0 18px;
+    text-align: left;
+    margin-right: 6px;
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+}
+
+.calculadora .operadores div{
+    color: #EFEFEF;
+    background-color: #377E78;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: inset -2px -2px 6px #62B4AF,
+                inset 2px 2px 4px #2A6964;
+}
+
+.calculadora .panelEsquerdo{
+  display: inline-block;  
+}
+
+.calculadora .numeros div{
+    color: #737C9C;
+    cursor: pointer;
+    display: inline-block;
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 4px 4px 0;
+}
+
+.calculadora div.igual{
+    color: #EFEFEF;
+    display: inline-block;
+    background-color: #377E78;
+    text-align: center;
+    width: 60px;
+    padding: 115px 10px;
+    margin-top: 10px;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: inset -2px -2px 6px #62B4AF,
+                inset 2px 2px 4px #2A6964;
+}
+
+.calculadora .numeros #limpar{
+    color: #EFEFEF;
+    background-color: #F52245;
+    box-shadow: inset -2px -2px 6px #F8617A,
+                inset 2px 2px 4px #C81C39;
+}
+
+.calculadora .entrada,
+.calculadora .numeros div{
+    border-radius: 12px;
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
+                inset -2px -2px 6px rgba(255, 255, 255, .5),
+                inset 2px 2px 6px rgba(255, 255, 255, .075),
+                inset 2px 2px 6px rgba(0, 0, 0, .15);
+    
+}
